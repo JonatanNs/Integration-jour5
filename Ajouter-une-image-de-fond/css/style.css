@@ -1,0 +1,187 @@
+/**************************************
+
+# Exercice dirigé: Background
+
+## Chaque bloc
+* Padding de 2em;
+* Couleur de fond: teal;
+* largeur max: 40em;
+* Hauteur min: 20em;
+* Couleur du texte: #fff;
+
+******************************************/
+
+*{
+    box-sizing: border-box;
+}
+
+html{
+    font-size : 62.5%;
+}
+body{
+    font-size: 1.6rem ;
+    margin: 0;
+}
+
+/*code{
+    background-color:grey;
+    padding: 0.5em;
+    width: 100vw;
+}*/
+/*
+    padding: 2em;
+    background-color: teal;
+    width: 40em;
+    height: 20em;
+    color: #fff;
+*/
+
+.background-image p:last-of-type{
+    background-image: url(../img/large.jpg);
+    padding: 2em;
+    background-color: teal;
+    max-width: 40em;
+    min-height: 20em;
+    color: #fff;
+}
+
+.repetition-image p:first-of-type{
+    background-image: url(../img/small.jpg);
+    background-repeat: repeat;
+    padding: 2em;
+    background-color: teal;
+    max-width: 40em;
+    min-height: 20em;
+    color: #fff;
+}
+
+.repetition-image p:nth-of-type(2){
+    background-image: url(../img/small.jpg);
+    background-repeat: no-repeat;
+    padding: 2em;
+    background-color: teal;
+    max-width: 40em;
+    min-height: 20em;
+    color: #fff;
+}
+
+.repetition-image p:nth-of-type(3){
+    background-image: url(../img/small.jpg);
+    background-repeat: repeat-x;
+    padding: 2em;
+    background-color: teal;
+    max-width: 40em;
+    min-height: 20em;
+    color: #fff;
+}
+
+
+.repetition-image p:nth-of-type(4){
+    background-image: url(../img/small.jpg);
+    background-repeat: repeat-y;
+    padding: 2em;
+    background-color: teal;
+    max-width: 40em;
+    min-height: 20em;
+    color: #fff;
+}
+
+.background-size p:first-of-type{
+    background-image: url(../img/large.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 2em;
+    background-color: teal;
+    max-width: 40em;
+    min-height: 20em;
+    color: #fff;
+}
+
+.background-size p:nth-of-type(2){
+    background-image: url(../img/large.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 2em;
+    background-color: teal;
+    max-width: 40em;
+    min-height: 20em;
+    color: #fff;
+}
+
+.background-size p:nth-of-type(3){
+    background-image: url(../img/large.jpg);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    padding: 2em;
+    background-color: teal;
+    max-width: 40em;
+    min-height: 20em;
+    color: #fff;
+}
+
+.background-size p:nth-of-type(4){
+    background-image: url(../img/large.jpg);
+    background-size: 80% 40%;
+    background-repeat: no-repeat;
+    padding: 2em;
+    background-color: teal;
+    max-width: 40em;
+    min-height: 20em;
+    color: #fff;
+}
+
+.positionnement-image p:first-of-type{
+    background-image: url(../img/large.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 2em;
+    background-color: teal;
+    max-width: 40em;
+    min-height: 20em;
+    color: #fff;
+}
+
+
+.positionnement-image p:nth-of-type(2){
+    background-image: url(../img/large.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 2em;
+    background-color: teal;
+    max-width: 40em;
+    min-height: 20em;
+    color: #fff;
+}
+
+.positionnement-image p:nth-of-type(3){
+    background-image: url(../img/large.jpg);
+    background-position: right-top;
+    background-repeat: no-repeat;
+    padding: 2em;
+    background-color: teal;
+    max-width: 40em;
+    min-height: 20em;
+    color: #fff;
+}
+
+.positionnement-image p:nth-of-type(3){
+    background-image: url(../img/large.jpg);
+    background-position: right-bottom;
+    background-repeat: no-repeat;
+    padding: 2em;
+    background-color: teal;
+    max-width: 40em;
+    min-height: 20em;
+    color: #fff;
+}
+
+.positionnement-image p:nth-of-type(4){
+    background-image: url(../img/large.jpg);
+    background-position: 80% 40%;
+    background-repeat: no-repeat;
+    padding: 2em;
+    background-color: teal;
+    max-width: 40em;
+    min-height: 20em;
+    color: #fff;
+}
